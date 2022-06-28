@@ -2,7 +2,7 @@
     <section>
         <div>
             <video autoplay muted loop>
-            <source src="../public/img/Video/PS5.mp4" type="video/mp4">
+            <source src="../public/img/Video/XBOX.mp4" type="video/mp4">
             </video>
         </div>
     </section>

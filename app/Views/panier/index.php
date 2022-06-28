@@ -7,7 +7,7 @@
         </div>
         <form action="index.php?p=panier.confirmation" method="POST">
           <?php 
-          if($_SESSION['auth']){
+          if(!empty($_SESSION['auth'])){
             ?>
             <input type="hidden" name="user_id" value="<?=$_SESSION['auth']?>">
             <?php
