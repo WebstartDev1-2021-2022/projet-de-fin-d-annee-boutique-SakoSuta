@@ -1,2 +1,2 @@
-# projet-de-fin-d-annee-boutique-SakoSuta
+# JoyLab
 https://webstart-dev.ovh/~dv21montpre/JoyLab/public/index.php
