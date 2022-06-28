@@ -1,0 +1,1502 @@
+.contenuNav,
+.categorieNav,
+.iconNAV,
+.Footerrr,
+.LogoAndNew,
+.mail,
+.en-savoir-plus,
+.infoSecurity,
+.infoPaiement,
+.Contacter,
+.contact,
+.reseau,
+.Btn-contact {
+  display: flex;
+}
+
+.infoSecurity,
+.Contacter,
+.LogoAndNew {
+  flex-direction: column;
+}
+
+.Btn-contact,
+.Footerrr,
+.LogoAndNew {
+  justify-content: center;
+}
+
+.categorieNav,
+.iconNAV {
+  align-items: end;
+}
+
+.contenuNav,
+.categorieNav,
+.iconNAV,
+.Footerrr,
+.en-savoir-plus {
+  justify-content: space-between;
+}
+
+html {
+  background-color: #CED8E2;
+}
+
+.navig {
+  width: 100%;
+  height: 130px;
+}
+.navig .LogoNav {
+  margin: 29px 0px 0px 69px;
+  width: 159px;
+  height: 64px;
+}
+.navig .categorieNav {
+  width: 50%;
+  max-width: 391px;
+}
+.navig .categorieNav a {
+  text-decoration: none;
+  color: #CED8E2;
+}
+.navig .iconNAV {
+  width: 50%;
+  max-width: 115px;
+  margin-right: 62px;
+}
+
+.Footerrr {
+  width: 100%;
+  background-color: #112B3D;
+}
+.Footerrr .LogoAndNew {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.Footerrr .LogoAndNew .LogoFoot {
+  width: 157px;
+  height: 64px;
+}
+.Footerrr .LogoAndNew .News {
+  margin: 31px 0px;
+  color: #CED8E2;
+}
+.Footerrr .LogoAndNew .News .mail {
+  align-items: end;
+  border-bottom: 2px solid #CED8E2;
+  padding: 5px;
+  margin-top: 16px;
+  width: 209.01px;
+}
+.Footerrr .LogoAndNew .News .mail img {
+  margin-right: 26px;
+}
+.Footerrr .en-savoir-plus {
+  margin-top: 48px;
+  margin-right: 134px;
+}
+.Footerrr .en-savoir-plus .contenuFoot {
+  margin-right: 88px;
+}
+.Footerrr .en-savoir-plus .contenuFoot .titreFoot {
+  margin-bottom: 20px;
+  color: #CED8E2;
+}
+.Footerrr .en-savoir-plus .contenuFoot .infoSecurity a {
+  text-decoration: none;
+  color: #CED8E2;
+  margin-bottom: 14px;
+}
+.Footerrr .en-savoir-plus .contenuFoot .infoPaiement img {
+  width: 31px;
+  height: 21px;
+  margin-right: 16px;
+}
+.Footerrr .en-savoir-plus .Contacter p {
+  color: #CED8E2;
+}
+.Footerrr .en-savoir-plus .Contacter .contact {
+  margin-top: 14px;
+}
+.Footerrr .en-savoir-plus .Contacter .contact img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.Footerrr .en-savoir-plus .Contacter .reseau {
+  margin: 25px 0px;
+  align-items: end;
+}
+.Footerrr .en-savoir-plus .Contacter .reseau svg {
+  margin-right: 14px;
+}
+
+.boutonFooter {
+  background-color: #CED8E2;
+  color: #112B3D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 27px;
+  width: 110px;
+  height: 30px;
+  border: 0px;
+  border-radius: 33px;
+}
+
+.boutonFooter:hover {
+  background-color: #1CC9A1;
+}
+
+.policeCHAKRA {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+}
+
+.policeIBM {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+}
+
+.CHAKRARegular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+}
+
+.CHAKRAMedium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+}
+
+.IBMMedium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+}
+
+.CHAKRASemiBold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+}
+
+.CHAKRABold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.font24 {
+  font-size: 24px;
+}
+
+.font32 {
+  font-size: 32px;
+}
+
+.font40 {
+  font-size: 40px;
+}
+
+.font48 {
+  font-size: 48px;
+}
+
+.over:hover {
+  font-weight: 600;
+}
+
+.overimg:hover {
+  transform: scale(1.2);
+}
+.overimg:hover path {
+  fill: #1CC9A1;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #112B3D;
+  z-index: 10000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+nav.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: 0.7s;
+  background-color: #112B3D;
+}
+
+.CategorieAc {
+  margin: 76px 0px;
+  display: flex;
+  justify-content: center;
+}
+.CategorieAc .autreCategorie {
+  margin-left: 19px;
+  display: flex;
+  flex-direction: column;
+}
+.CategorieAc .autreCategorie .motifs {
+  margin-bottom: 17px;
+}
+
+.MeilleursAchats {
+  background-color: #112B3D;
+  margin-bottom: 75px;
+}
+.MeilleursAchats .TitreMA p {
+  color: #CED8E2;
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-bottom: 37px;
+}
+.MeilleursAchats .ListeMeilAchat {
+  display: flex;
+  justify-content: center;
+}
+.MeilleursAchats .ListeMeilAchat .ContenuMeilAchat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  width: 100%;
+  max-width: 1380px;
+}
+.MeilleursAchats .ListeMeilAchat .ContenuMeilAchat .passe {
+  display: flex;
+  margin: 0px 55px;
+}
+.MeilleursAchats .ListeMeilAchat .ContenuMeilAchat .MeilleurArticle {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  max-width: 1080px;
+}
+
+.Compte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 177px;
+}
+.Compte .MonCompte {
+  margin-top: 205px;
+  margin-left: 67px;
+  margin-bottom: 98px;
+  color: #112B3D;
+}
+.Compte .Titre {
+  width: 100%;
+}
+.Compte .Erreur {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #D43B3B;
+}
+.Compte .TousCompte {
+  width: 70%;
+  max-width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Compte .TousCompte .signUp {
+  background-color: #112B3D;
+  border-radius: 10px;
+}
+.Compte .TousCompte .signUp .TitreSignUp-In {
+  color: #1CC9A1;
+}
+.Compte .TousCompte .signUp .FormSignUp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Compte .TousCompte .signUp .FormSignUp form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 396px;
+}
+.Compte .TousCompte .signUp .FormSignUp form .FNameLName {
+  display: flex;
+  justify-content: center;
+}
+.Compte .TousCompte .signUp .FormSignUp form .FNameLName .InfoInput {
+  background-color: #CED8E2;
+  border-radius: 10px;
+  display: flex;
+  max-width: 396px;
+  margin: 15px;
+}
+.Compte .TousCompte .signUp .FormSignUp form .FNameLName .InfoInput .Aligne {
+  display: flex;
+  flex-direction: column;
+}
+.Compte .TousCompte .signUp .FormSignUp form .FNameLName .InfoInput .Aligne input {
+  margin: 18px;
+  margin-bottom: 8px;
+  width: 100%;
+  border: 0px;
+  color: #112B3D;
+  background-color: transparent;
+}
+.Compte .TousCompte .signUp .FormSignUp form .FNameLName .InfoInput .Aligne p {
+  color: #D43B3B;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.Compte .TousCompte .signUp .FormSignUp form .AutreInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Compte .TousCompte .signUp .FormSignUp form .AutreInfo .InfoInput {
+  background-color: #CED8E2;
+  border-radius: 10px;
+  display: flex;
+  margin: 15px;
+}
+.Compte .TousCompte .signUp .FormSignUp form .AutreInfo .InfoInput img {
+  max-width: 22px;
+  margin-left: 20px;
+  max-height: 70px;
+}
+.Compte .TousCompte .signUp .FormSignUp form .AutreInfo .InfoInput .Aligne {
+  display: flex;
+  flex-direction: column;
+}
+.Compte .TousCompte .signUp .FormSignUp form .AutreInfo .InfoInput .Aligne input {
+  margin: 18px;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  border: 0px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  outline: none;
+  color: #112B3D;
+  background-color: transparent;
+}
+.Compte .TousCompte .signUp .FormSignUp form .AutreInfo .InfoInput .Aligne p {
+  color: #D43B3B;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.Compte .TousCompte .signUp .FormSignUp form .sinscrire {
+  background-color: #CED8E2;
+  color: #112B3D;
+  margin: 50px 0px;
+  padding: 15px 0px;
+  width: 80%;
+  max-width: 242px;
+  border-radius: 10px;
+  border: 0px;
+}
+.Compte .TousCompte .signUp .FormSignUp form .sinscrire:hover {
+  background-color: #1CC9A1;
+}
+.Compte .TousCompte .signIn {
+  background-color: #1CC9A1;
+  border-radius: 10px;
+  height: max-content;
+}
+.Compte .TousCompte .signIn .TitreSignUp-In {
+  color: #112B3D;
+}
+.Compte .TousCompte .signIn .FormSignIn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Compte .TousCompte .signIn .FormSignIn form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 396px;
+}
+.Compte .TousCompte .signIn .FormSignIn form .InfoInput {
+  background-color: #112B3D;
+  border-radius: 10px;
+  display: flex;
+  max-width: 396px;
+  margin: 15px;
+}
+.Compte .TousCompte .signIn .FormSignIn form .InfoInput img {
+  max-width: 22px;
+  margin-left: 20px;
+}
+.Compte .TousCompte .signIn .FormSignIn form .InfoInput input {
+  margin: 18px;
+  padding-left: 20px;
+  border: 0px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  color: #CED8E2;
+  outline: none;
+  background-color: transparent;
+}
+.Compte .TousCompte .signIn .FormSignIn form .Connected {
+  background-color: #112B3D;
+  color: #CED8E2;
+  margin: 50px 0px;
+  padding: 15px 0px;
+  width: 80%;
+  max-width: 242px;
+  border: 0px;
+  border-radius: 10px;
+}
+.Compte .TousCompte .signIn .FormSignIn form .Connected:hover {
+  background-color: #CED8E2;
+  color: #112B3D;
+}
+
+.TitreSignUp-In {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+}
+.Contact .ContenuContact {
+  margin-top: 205px;
+  margin-bottom: 150px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.Contact .ContenuContact .NumAndMail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Contact .ContenuContact .NumAndMail .ContenuNumMail {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Contact .ContenuContact .NumAndMail .ContenuNumMail .NumMailInfo {
+  height: 245px;
+  background-color: #112B3D;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Contact .ContenuContact .NumAndMail .ContenuNumMail .NumMailInfo p {
+  color: #CED8E2;
+}
+.Contact .ContenuContact .NousContacter {
+  background-color: #1CC9A1;
+  border-radius: 10px;
+  width: 841px;
+  height: 742px;
+  padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.Contact .ContenuContact .NousContacter .TitreContact p {
+  color: #112B3D;
+  margin-bottom: 50px;
+}
+.Contact .ContenuContact .NousContacter .FormContact {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.Contact .ContenuContact .NousContacter .FormContact form {
+  width: 100%;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CFirstLastName {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CFirstLastName .InfoInputC {
+  background-color: #112B3D;
+  border-radius: 10px;
+  width: 45%;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CFirstLastName .InfoInputC .Aligne {
+  display: flex;
+  flex-direction: column;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CFirstLastName .InfoInputC .Aligne input {
+  max-width: 75%;
+  margin: 18px;
+  margin-bottom: 8px;
+  color: #CED8E2;
+  border: 0px;
+  background-color: transparent;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CFirstLastName .InfoInputC .Aligne p {
+  color: #D43B3B;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CNumMail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CNumMail .InfoInputC {
+  display: flex;
+  background-color: #112B3D;
+  border-radius: 10px;
+  width: 45%;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CNumMail .InfoInputC img {
+  max-width: 22px;
+  margin-left: 20px;
+  height: 65px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CNumMail .InfoInputC .Aligne {
+  display: flex;
+  flex-direction: column;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CNumMail .InfoInputC .Aligne input {
+  max-width: 75%;
+  margin: 18px;
+  margin-bottom: 8px;
+  color: #CED8E2;
+  padding-left: 20px;
+  border: 0px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  background-color: transparent;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CNumMail .InfoInputC .Aligne p {
+  color: #D43B3B;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .Message {
+  margin-bottom: 30px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .Message .InfoInputC .Aligne {
+  display: flex;
+  flex-direction: column;
+}
+.Contact .ContenuContact .NousContacter .FormContact .Message .InfoInputC .Aligne textarea {
+  min-width: 100%;
+  min-height: 60px;
+  max-width: 100%;
+  max-height: 240px;
+  padding: 15px;
+  background-color: #112B3D;
+  border-radius: 10px;
+  color: #CED8E2;
+  width: 100%;
+  height: 144px;
+  border: 0px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .Message .InfoInputC .Aligne p {
+  color: #D43B3B;
+  margin-left: 10px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CEnvoyer {
+  display: flex;
+  justify-content: center;
+}
+.Contact .ContenuContact .NousContacter .FormContact .CEnvoyer .Envoyer {
+  background-color: #112B3D;
+  color: #CED8E2;
+  width: 80%;
+  max-width: 242px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 13px 0px;
+}
+.Contact .ContenuContact .NousContacter .FormContact .Envoyer:hover {
+  color: #1CC9A1;
+}
+
+.CategoryAppareil {
+  width: 100%;
+  margin: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CategoryAppareil .InfoCategoryApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CategoryAppareil .InfoCategoryApp p {
+  margin-bottom: 15px;
+}
+.CategoryAppareil .ContenuCategoryApp {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 62px 0px;
+}
+.CategoryAppareil .ContenuCategoryApp .passe {
+  display: flex;
+  align-items: center;
+}
+.CategoryAppareil .ContenuCategoryApp .Articles {
+  width: 80%;
+  overflow-x: scroll;
+  margin: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.CategoryAppareil .ContenuCategoryApp .Articles a {
+  margin: 0px 20px;
+}
+.CategoryAppareil .VoirPlusApp {
+  display: flex;
+  margin-top: 15px;
+}
+.CategoryAppareil .VoirPlusApp a {
+  background-color: #112B3D;
+  color: #1CC9A1;
+  padding: 12px 40px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+.CategoryAppareil .VoirPlusApp:hover a {
+  background-color: #1CC9A1;
+  color: #CED8E2;
+}
+
+.Category {
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Category .InfoCategory {
+  margin-top: 205px;
+  margin-bottom: 70px;
+}
+.Category .InfoCategory p {
+  color: #112B3D;
+}
+.Category .ContenuCategory {
+  background-color: #112B3D;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Category .ContenuCategory .TousArticles {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 65px;
+  padding: 95px 0px;
+}
+.Category .ContenuCategory .TousArticles .Articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Category .ContenuCategory .TousArticles .Articles a {
+  text-decoration: none;
+}
+.Category .ContenuCategory .TousArticles .Articles .NomArticle {
+  color: #CED8E2;
+  margin: 25px 0px;
+}
+.Category .ContenuCategory .TousArticles .Articles .NomArticle:hover {
+  color: #1CC9A1;
+}
+.Category .ContenuCategory .TousArticles .Articles .btnAcheter {
+  background-color: #CED8E2;
+  color: #112B3D;
+  border-radius: 97px;
+  padding: 10px 50px;
+}
+.Category .ContenuCategory .TousArticles .Articles .btnAcheter:hover {
+  background-color: #1CC9A1;
+}
+.Category .ContenuCategory .VoirPlus {
+  margin-bottom: 60px;
+}
+.Category .ContenuCategory .VoirPlus a {
+  background-color: #CED8E2;
+  color: #112B3D;
+  padding: 12px 40px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+.Category .ContenuCategory .VoirPlus:hover a {
+  background-color: #1CC9A1;
+}
+
+.Panier {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 130px;
+}
+.Panier .InfoPanier {
+  color: #112B3D;
+  margin: 205px 0px 98px 67px;
+}
+.Panier .ContenuPanier {
+  background-color: #112B3D;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 42px;
+}
+.Panier .ContenuPanier .TableauPanier {
+  height: max-content;
+  display: flex;
+  border: 4px solid #1CC9A1;
+  border-radius: 10px;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .TProduits {
+  background-color: #CED8E2;
+  border-bottom: 4px solid #1CC9A1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .TProduits p {
+  padding: 25px 50px;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .Produit {
+  background-color: #CED8E2;
+  padding: 32px 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .Produit .ImgProduit {
+  background-color: #112B3D;
+  border-radius: 10px;
+  margin-right: 23px;
+  width: 110.59px;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .Produit .ImgProduit img {
+  width: 100%;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .Produit .InfoProduit .TitreProduit {
+  margin-bottom: 40px;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .Produit .InfoProduit input {
+  background-color: #CED8E2;
+  border-radius: 10px;
+  color: #112B3D;
+  border: 0px;
+  width: 70px;
+  height: 50px;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .Produit .InfoProduit .prixTOTO input {
+  background-color: transparent;
+  text-align: center;
+  border-radius: 10px;
+  color: #112B3D;
+  border: 0px;
+  width: 100px;
+}
+.Panier .ContenuPanier .TableauPanier .Colonne .Produit .InfoProduit:hover path {
+  stroke: #D43B3B;
+}
+.Panier .ContenuPanier .Resum {
+  width: 490px;
+  height: max-content;
+  border: 4px solid #1CC9A1;
+  border-radius: 10px;
+}
+.Panier .ContenuPanier .Resum .Titre {
+  background-color: #CED8E2;
+  color: #112B3D;
+  display: flex;
+  justify-content: center;
+  border-bottom: 4px solid #1CC9A1;
+  border-radius: 4px 4px 0px 0px;
+  width: 100%;
+  padding: 20px 0px;
+}
+.Panier .ContenuPanier .Resum .ContenuResume {
+  background-color: #CED8E2;
+  padding: 60px;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Panier .ContenuPanier .Resum .ContenuResume .Resumee .Objet {
+  color: #112B3D;
+  display: flex;
+  justify-content: space-between;
+  width: 376px;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+.Panier .ContenuPanier .Resum .ContenuResume .Total {
+  color: #112B3D;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 376px;
+  border-bottom: 1px solid;
+}
+.Panier .ContenuPanier .Resum .ContenuResume .Total input {
+  background-color: transparent;
+  text-align: right;
+  border-radius: 10px;
+  color: #112B3D;
+  border: 0px;
+  width: 200px;
+}
+.Panier .ContenuPanier .Resum .ContenuResume .Commande {
+  margin-top: 50px;
+}
+.Panier .ContenuPanier .Resum .ContenuResume .Commande button {
+  background-color: #112B3D;
+  border: 0px;
+  border-radius: 10px;
+  padding: 15px 70px;
+  color: #CED8E2;
+  text-decoration: none;
+}
+.Panier .ContenuPanier .Resum .ContenuResume .Commande:hover button {
+  background-color: #1CC9A1;
+}
+
+.GestionDeCompte {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 177px;
+}
+.GestionDeCompte .TitreCompte {
+  margin-top: 205px;
+  margin-left: 67px;
+  margin-bottom: 98px;
+  color: #112B3D;
+}
+.GestionDeCompte .TousCompte {
+  padding: 80px 60px;
+  background-color: #112B3D;
+  display: flex;
+  justify-content: center;
+}
+.GestionDeCompte .TousCompte .ContenuCompte {
+  height: 501px;
+  display: flex;
+  height: fit-content;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .CategorieCompte {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .CategorieCompte a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33.33%;
+  text-align: center;
+  text-decoration: none;
+  color: #112B3D;
+  background-color: #CED8E2;
+  border: 1px solid #112B3D;
+  padding: 65px 55px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso {
+  background-color: #CED8E2;
+  border: 1px solid #112B3D;
+  width: 974px;
+  height: fit-content;
+  padding: 40px;
+  padding-bottom: 0px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TextInfo {
+  color: #112B3D;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo {
+  display: flex;
+  flex-direction: column;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .PreNom {
+  display: flex;
+  justify-content: space-between;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .PreNom .Contenu {
+  width: 340px;
+  padding: 30px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .PreNom .Contenu .Info {
+  display: flex;
+  justify-content: left;
+  color: #112B3D;
+  margin-bottom: 6px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .PreNom .Contenu .InputInfo {
+  width: max-content;
+  background-color: #112B3D;
+  padding: 15px;
+  margin-left: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: right;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .PreNom .Contenu .InputInfo .Aligne {
+  display: flex;
+  flex-direction: column;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .PreNom .Contenu .InputInfo .Aligne input {
+  color: #CED8E2;
+  border: 0px;
+  background-color: transparent;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .PreNom .Contenu .InputInfo .Aligne p {
+  color: #D43B3B;
+  margin-left: 10px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail {
+  display: flex;
+  justify-content: space-between;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail .Contenu {
+  width: 340px;
+  padding: 30px;
+  padding-right: 0px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail .Contenu .Info {
+  display: flex;
+  justify-content: left;
+  color: #112B3D;
+  margin-bottom: 6px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail .Contenu .InputInfo {
+  width: fit-content;
+  background-color: #112B3D;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: right;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail .Contenu .InputInfo img {
+  max-width: 22px;
+  max-height: 28px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail .Contenu .InputInfo .Aligne {
+  display: flex;
+  flex-direction: column;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail .Contenu .InputInfo .Aligne input {
+  width: 230px;
+  color: #CED8E2;
+  margin-left: 18px;
+  padding-left: 20px;
+  border: 0px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  background-color: transparent;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .TelMail .Contenu .InputInfo .Aligne p {
+  color: #D43B3B;
+  margin-left: 10px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .Adresse {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .Adresse .Contenu {
+  padding: 30px;
+  padding-right: 0px;
+  width: 100%;
+  height: 230px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .Adresse .Contenu .Info {
+  display: flex;
+  justify-content: left;
+  color: #112B3D;
+  margin-bottom: 6px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .Adresse .Contenu .InputInfo {
+  width: 100%;
+  height: 100%;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .Adresse .Contenu .InputInfo .Aligne {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .Adresse .Contenu .InputInfo .Aligne textarea {
+  background-color: #112B3D;
+  color: #CED8E2;
+  padding: 15px;
+  border: 0px;
+  border-radius: 10px;
+  width: 100%;
+  min-width: 50%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 50%;
+  max-height: 100%;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .BoutonSauve {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .BoutonSauve button {
+  background-color: #112B3D;
+  color: #CED8E2;
+  padding: 15px 25px;
+  border: 0px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.GestionDeCompte .TousCompte .ContenuCompte .InfoPerso .TousInfo .BoutonSauve button:hover {
+  background-color: #1CC9A1;
+}
+
+.FicheProduit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.FicheProduit .ContenuFP {
+  margin-top: 160px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0px;
+}
+.FicheProduit .ContenuFP .ImageProduit {
+  background-color: #112B3D;
+  border-radius: 10px;
+  width: 686px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FicheProduit .ContenuFP .ImageProduit img {
+  width: 70%;
+}
+.FicheProduit .ContenuFP .FicheInfo {
+  background-color: #112B3D;
+  border-radius: 10px;
+  width: 509px;
+}
+.FicheProduit .ContenuFP .FicheInfo .haut {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.FicheProduit .ContenuFP .FicheInfo .haut .Produit p {
+  color: #1CC9A1;
+  margin-bottom: 37px;
+}
+.FicheProduit .ContenuFP .FicheInfo .haut .Produit .Play {
+  color: #CED8E2;
+}
+.FicheProduit .ContenuFP .FicheInfo .haut .quanti {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-right: 10px;
+}
+.FicheProduit .ContenuFP .FicheInfo .haut .quanti .ContenuQuanti {
+  display: flex;
+  align-items: center;
+}
+.FicheProduit .ContenuFP .FicheInfo .haut .quanti .ContenuQuanti p {
+  color: #CED8E2;
+  margin-right: 5px;
+  min-width: fit-content;
+}
+.FicheProduit .ContenuFP .FicheInfo .haut .quanti .ContenuQuanti .InputQuanti input {
+  background-color: transparent;
+  color: #CED8E2;
+  border: 0px;
+  width: 50px;
+  height: 20px;
+}
+.FicheProduit .ContenuFP .FicheInfo .descrip {
+  background-color: #1CC9A1;
+  margin: 54px 0px;
+  padding: 24px 0px 24px 24px;
+}
+.FicheProduit .ContenuFP .FicheInfo .descrip .ContenuDescrip {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.FicheProduit .ContenuFP .FicheInfo .descrip .ContenuDescrip p {
+  width: 391px;
+}
+.FicheProduit .ContenuFP .FicheInfo .AjoutPanier {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.FicheProduit .ContenuFP .FicheInfo .AjoutPanier button {
+  background-color: #CED8E2;
+  color: #112B3D;
+  padding: 16px 60px;
+  border: 0px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.FicheProduit .ContenuFP .FicheInfo button:hover {
+  background-color: #1CC9A1;
+  color: #CED8E2;
+}
+
+.GameOver {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0px;
+}
+.GameOver a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #112B3D;
+  border: 2px solid #112B3D;
+  margin-top: 50px;
+  padding: 15px 40px;
+}
+.GameOver a:hover {
+  background-color: #1CC9A1;
+  color: #CED8E2;
+}
+
+.GestionAdmin .TitreAd {
+  margin-top: 103px;
+  margin-left: 67px;
+  margin-bottom: 98px;
+  color: #112B3D;
+}
+.GestionAdmin .TousAdmin {
+  height: fit-content;
+  padding: 80px 40px;
+  background-color: #112B3D;
+  display: flex;
+  justify-content: center;
+}
+.GestionAdmin .TousAdmin .Admin {
+  height: fit-content;
+}
+.GestionAdmin .TousAdmin .Admin .CategorieAdmin {
+  display: flex;
+  width: 100%;
+}
+.GestionAdmin .TousAdmin .Admin .CategorieAdmin a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  min-width: 290px;
+  text-align: center;
+  text-decoration: none;
+  color: #112B3D;
+  background-color: #CED8E2;
+  border: 1px solid #112B3D;
+  padding: 45px 20px;
+}
+.GestionAdmin .TousAdmin .Admin .ContenuAdmin {
+  background-color: #CED8E2;
+  border: 1px solid #112B3D;
+  padding: 40px;
+  padding-bottom: 0px;
+  min-width: 974px;
+}
+.GestionAdmin .TousAdmin .Admin .Deco {
+  display: flex;
+}
+.GestionAdmin .TousAdmin .Admin .Deco a {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #D43B3B;
+  background-color: #CED8E2;
+  border: 1px solid #112B3D;
+  padding: 45px 55px;
+}
+
+.Ajouter {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px;
+}
+.Ajouter a {
+  background-color: #112B3D;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #CED8E2;
+  padding: 15px 70px;
+}
+
+.AdminTable .Title {
+  color: #112B3D;
+  margin-bottom: 40px;
+}
+.AdminTable table thead tr td {
+  color: #112B3D;
+  text-align: center;
+  padding: 0px 30px;
+}
+.AdminTable table tbody tr {
+  border-radius: 10px;
+  border: 3px solid #112B3D;
+}
+.AdminTable table tbody tr td {
+  color: #112B3D;
+  padding-top: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.AdminTable table tbody tr td img {
+  width: 100px;
+}
+.AdminTable table tbody tr td a {
+  display: inline-block;
+  background-color: #1CC9A1;
+  color: #112B3D;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.AdminTable table tbody tr td form button {
+  background-color: #D43B3B;
+  color: #112B3D;
+  border-radius: 10px;
+  border: 0px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.FormUser form {
+  display: flex;
+  justify-content: center;
+}
+.FormUser form .EditUsers {
+  width: fit-content;
+}
+.FormUser form .EditUsers .EditLigne {
+  display: flex;
+}
+.FormUser form .EditUsers .EditLigne .Aligne input {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.FormUser form .EditUsers .EditLigne .Aligne p {
+  color: #D43B3B;
+}
+.FormUser form .EditUsers .AREA .Aligne {
+  display: flex;
+  justify-content: center;
+}
+.FormUser form .EditUsers .AREA .Aligne textarea {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 95%;
+  height: 150px;
+}
+.FormUser form .EditUsers .sauvegarderAD {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.FormUser form .EditUsers .sauvegarderAD button {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.FormCate form {
+  display: flex;
+  justify-content: center;
+}
+.FormCate form .EditCategories {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.FormCate form .EditCategories .EditLigne .Aligne input {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.FormCate form .EditCategories .EditLigne .Aligne p {
+  color: #D43B3B;
+}
+.FormCate form .EditCategories .sauvegarderAD {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.FormCate form .EditCategories .sauvegarderAD button {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.FormSous form {
+  display: flex;
+  justify-content: center;
+}
+.FormSous form .EditSousCategories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.FormSous form .EditSousCategories .EditLigne .Aligne input {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.FormSous form .EditSousCategories .EditLigne .Aligne p {
+  color: #D43B3B;
+}
+.FormSous form .EditSousCategories .EditLigne .Aligne select {
+  background-color: #112B3D;
+  color: #CED8E2;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+}
+.FormSous form .EditSousCategories .sauvegarderAD {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.FormSous form .EditSousCategories .sauvegarderAD button {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.FormPro form {
+  display: flex;
+  justify-content: center;
+}
+.FormPro form .EditProduits {
+  width: fit-content;
+}
+.FormPro form .EditProduits .EditLigne {
+  display: flex;
+  width: 100%;
+}
+.FormPro form .EditProduits .EditLigne .Aligne {
+  width: 100%;
+}
+.FormPro form .EditProduits .EditLigne .Aligne input {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.FormPro form .EditProduits .EditLigne .Aligne p {
+  color: #D43B3B;
+}
+.FormPro form .EditProduits .EditLigne .Aligne select {
+  background-color: #112B3D;
+  color: #CED8E2;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+}
+.FormPro form .EditProduits .EditLigne .Aligne textarea {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 95%;
+  height: 150px;
+}
+.FormPro form .EditProduits .sauvegarderAD {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+.FormPro form .EditProduits .sauvegarderAD button {
+  background-color: #112B3D;
+  color: #CED8E2;
+  border: 0px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

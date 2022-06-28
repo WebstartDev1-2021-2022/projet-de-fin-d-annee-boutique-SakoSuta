@@ -1,0 +1,283 @@
+.contenuNav,
+.categorieNav,
+.iconNAV,
+.Footerrr,
+.LogoAndNew,
+.mail,
+.en-savoir-plus,
+.infoSecurity,
+.infoPaiement,
+.Contacter,
+.contact,
+.reseau,
+.Btn-contact
+{
+  display: flex;
+}
+
+.infoSecurity,
+.Contacter,
+.LogoAndNew {
+  flex-direction: column;
+}
+
+.Btn-contact,
+.Footerrr,
+.LogoAndNew {
+  justify-content: center;
+}
+
+.categorieNav,
+.iconNAV {
+  align-items: end;
+}
+
+.contenuNav,
+.categorieNav,
+.iconNAV,
+.Footerrr,
+.en-savoir-plus
+{
+  justify-content: space-between;
+}
+
+html {
+  background-color: $blanc;
+}
+
+//--Nav--//
+
+.navig {
+  width: 100%;
+  height: 130px;
+  .LogoNav {
+    margin: 29px 0px 0px 69px;
+    width: 159px;
+    height: 64px;
+  }
+  .categorieNav {
+    width: 50%;
+    max-width: 391px;
+
+    a {
+      text-decoration: none;
+      color: $blanc;
+    }
+  }
+  .iconNAV {
+    width: 50%;
+    max-width: 115px;
+    margin-right: 62px;
+  }
+}
+
+//--Footer--//
+
+.Footerrr {
+  width: 100%;
+  background-color: $bleu;
+
+  .LogoAndNew {
+    margin-left: 60px;
+    margin-top: 30px;
+
+    .LogoFoot {
+      width: 157px;
+      height: 64px;
+    }
+    .News {
+      margin: 31px 0px;
+      color: $blanc;
+
+      .mail {
+        align-items: end;
+        border-bottom: 2px solid $blanc;
+        padding: 5px;
+        margin-top: 16px;
+        width: 209.01px;
+
+        img {
+          margin-right: 26px;
+        }
+      }
+    }
+  }
+  .en-savoir-plus {
+    margin-top: 48px;
+    margin-right: 134px;
+
+    .contenuFoot {
+      margin-right: 88px;
+
+      .titreFoot {
+        margin-bottom: 20px;
+        color: $blanc;
+      }
+
+      .infoSecurity {
+        a {
+          text-decoration: none;
+          color: $blanc;
+          margin-bottom: 14px;
+        }
+      }
+
+      .infoPaiement {
+        img {
+          width: 31px;
+          height: 21px;
+          margin-right: 16px;
+        }
+      }
+    }
+
+    .Contacter {
+      p {
+        color: $blanc;
+      }
+
+      .contact {
+        margin-top: 14px;
+
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 20px;
+        }
+      }
+
+      // .Btn-contact{
+
+      // }
+
+      .reseau {
+        margin: 25px 0px;
+        align-items: end;
+
+        svg {
+          margin-right: 14px;
+        }
+      }
+    }
+  }
+}
+
+.boutonFooter {
+  background-color: $blanc;
+  color: $bleu;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 27px;
+  width: 110px;
+  height: 30px;
+  border: 0px;
+  border-radius: 33px;
+}
+
+.boutonFooter:hover{
+  background-color: $vert;
+}
+
+//--Typo--//
+
+.policeCHAKRA {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+}
+
+.policeIBM {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+}
+
+.CHAKRARegular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+}
+
+.CHAKRAMedium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+}
+
+.IBMMedium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+}
+
+.CHAKRASemiBold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+}
+
+.CHAKRABold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.font24 {
+  font-size: 24px;
+}
+
+.font32 {
+  font-size: 32px;
+}
+
+.font40 {
+  font-size: 40px;
+}
+
+.font48 {
+  font-size: 48px;
+}
+
+//--organisation--//
+
+.over:hover {
+  font-weight: 600;
+}
+
+.overimg:hover {
+  transform: scale(1.2);
+  
+  path{
+    fill: $vert;
+  }
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: $bleu;
+  z-index: 10000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+nav.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: 0.7s;
+  background-color: $bleu;
+}

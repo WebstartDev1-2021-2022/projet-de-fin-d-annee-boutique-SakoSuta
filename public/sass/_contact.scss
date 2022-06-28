@@ -1,0 +1,192 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+
+  .ContenuContact {
+  margin-top: 205px;
+  margin-bottom: 150px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+
+    .NumAndMail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .ContenuNumMail {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .NumMailInfo {
+          height: 245px;
+          background-color: $bleu;
+          padding: 40px;
+          border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+
+          p {
+            color: $blanc;
+          }
+        }
+      }
+    }
+
+    .NousContacter {
+      background-color: $vert;
+      border-radius: 10px;
+      width: 841px;
+      height: 742px;
+      padding: 120px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .TitreContact{
+        p{
+          color: $bleu;
+          margin-bottom: 50px;
+        }
+      }
+      
+
+      .FormContact {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+
+        form {
+          width: 100%;
+        }
+
+        .CFirstLastName {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 30px;
+
+          .InfoInputC {
+            background-color: $bleu;
+            border-radius: 10px;
+            width: 45%;
+
+            .Aligne{
+              display: flex;
+              flex-direction: column;
+
+              input {
+                max-width: 75%;
+                margin: 18px;
+                margin-bottom: 8px;
+                color: $blanc;
+                border: 0px;
+                background-color: transparent;
+              }
+  
+              p{
+                color: $rouge;
+                margin-left: 20px;
+                padding-bottom: 10px;
+              }
+            }
+          }
+        }
+
+        .CNumMail {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 30px;
+
+          .InfoInputC {
+            display: flex;
+            background-color: $bleu;
+            border-radius: 10px;
+            width: 45%;
+
+            img {
+              max-width: 22px;
+              margin-left: 20px;
+              height: 65px;
+            }
+
+            .Aligne{
+                display: flex;
+                flex-direction: column;
+
+                input {
+                  max-width: 75%;
+                  margin: 18px;
+                  margin-bottom: 8px;
+                  color: $blanc;
+                  padding-left: 20px;
+                  border: 0px;
+                  border-left-width: 1px;
+                  border-left-style: solid;
+                  background-color: transparent;
+              }
+  
+              p{
+                color: $rouge;
+                margin-left: 10px;
+                padding-bottom: 10px;
+              }
+            }
+          }
+        }
+
+        .Message {
+          margin-bottom: 30px;
+
+          .InfoInputC {
+
+            .Aligne{
+              display: flex;
+              flex-direction: column;
+              
+              textarea {
+                min-width: 100%;
+                min-height: 60px;
+                max-width: 100%;
+                max-height: 240px;
+                padding: 15px;
+                background-color: $bleu;
+                border-radius: 10px;
+                color: $blanc;
+                width: 100%;
+                height: 144px;
+                border: 0px;
+              }
+  
+              p{
+                color: $rouge;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+
+        .CEnvoyer {
+          display: flex;
+          justify-content: center;
+          .Envoyer {
+            background-color: $bleu;
+            color: $blanc;
+            width: 80%;
+            max-width: 242px;
+            border: 0px;
+            border-radius: 10px;
+            padding: 13px 0px;
+          }
+        }
+        .Envoyer:hover{
+          color: $vert;
+        }
+      }
+    }
+  }
+}

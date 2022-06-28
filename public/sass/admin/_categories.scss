@@ -1,0 +1,39 @@
+.FormCate {
+  form {
+    display: flex;
+    justify-content: center;
+    .EditCategories {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      .EditLigne {
+        .Aligne {
+          input {
+            background-color: $bleu;
+            color: $blanc;
+            border: 0px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+          }
+          p {
+            color: $rouge;
+          }
+        }
+      }
+      .sauvegarderAD {
+        display: flex;
+        justify-content: center;
+        margin: 60px;
+        button {
+          background-color: $bleu;
+          color: $blanc;
+          border: 0px;
+          border-radius: 10px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}

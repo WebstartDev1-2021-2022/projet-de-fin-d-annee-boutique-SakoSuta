@@ -1,0 +1,219 @@
+.GestionDeCompte{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 177px;
+    .TitreCompte{
+        margin-top: 205px;
+        margin-left: 67px;
+        margin-bottom: 98px;
+        color: $bleu;
+    }
+    .TousCompte{
+        padding: 80px 60px;
+        background-color: $bleu;
+        display: flex;
+        justify-content: center;
+
+        .ContenuCompte{
+            height: 501px;
+            display: flex;
+            height: fit-content;
+            .CategorieCompte{
+                display: flex;
+                flex-direction: column;
+                width: 430px;
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 33.33%;
+                    text-align: center;
+                    text-decoration: none;
+                    color: $bleu;
+                    background-color: $blanc;
+                    border: 1px solid $bleu;
+                    padding: 65px 55px;
+                }
+            }
+
+            .InfoPerso{
+                background-color: $blanc;
+                border: 1px solid $bleu;
+                width: 974px;
+                height: fit-content;
+                padding: 40px;
+                padding-bottom: 0px;
+                .TextInfo{
+                    color: $bleu;
+                }
+
+                .TousInfo{
+                    display: flex;
+                    flex-direction: column;
+
+                    .PreNom{
+                        display: flex;
+                        justify-content: space-between;
+
+                        .Contenu{
+
+                            width: 340px;
+                            padding: 30px;
+
+                            .Info{
+                                display: flex;
+                                justify-content: left;
+                                color: $bleu;
+                                margin-bottom: 6px;
+                            }
+
+                            .InputInfo{
+                                width: max-content;
+                                background-color: $bleu;
+                                padding: 15px;
+                                margin-left: auto;
+                                border-radius: 10px;
+                                display: flex;
+                                justify-content: right;
+
+                                .Aligne{
+                                    display: flex;
+                                    flex-direction: column;
+    
+                                    input{
+                                        color: $blanc;
+                                        border: 0px;
+                                        background-color: transparent;
+                                    }
+  
+                                    p{
+                                      color: $rouge;
+                                      margin-left: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .TelMail{
+                        display: flex;
+                        justify-content: space-between;
+
+                        .Contenu{
+
+                            width: 340px;
+                            padding: 30px;
+                            padding-right: 0px;
+
+                            .Info{
+                                display: flex;
+                                justify-content: left;
+                                color: $bleu;
+                                margin-bottom: 6px;
+                            }
+
+                            .InputInfo{
+                                width: fit-content;
+                                background-color: $bleu;
+                                padding: 15px;
+                                margin: auto;
+                                border-radius: 10px;
+                                display: flex;
+                                justify-content: right;
+    
+                                img {
+                                    max-width: 22px;
+                                    max-height: 28px;
+                                  }
+
+                                .Aligne{
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    input{
+                                        width: 230px;
+                                        color: $blanc;
+                                        margin-left: 18px;
+                                        padding-left: 20px;
+                                        border: 0px;
+                                        border-left-width: 1px;
+                                        border-left-style: solid;
+                                        background-color: transparent;
+                                    }
+  
+                                    p{
+                                      color: $rouge;
+                                      margin-left: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .Adresse{
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+
+                        .Contenu{
+                            padding: 30px;
+                            padding-right: 0px;
+                            width: 100%;
+                            height: 230px;
+
+                            .Info{
+                                display: flex;
+                                justify-content: left;
+                                color: $bleu;
+                                margin-bottom: 6px;
+                            }
+
+                            .InputInfo{
+                                width: 100%;
+                                height: 100%;
+                                
+                                .Aligne{
+                                    display: flex;
+                                    flex-direction: column;
+                                    height: 100%;
+
+                                    textarea{
+                                        background-color: $bleu;
+                                        color: $blanc;
+                                        padding: 15px;
+                                        border: 0px;
+                                        border-radius: 10px;
+                                        width: 100%;
+                                        min-width: 50%;
+                                        max-width: 100%;
+                                        height: 100%;
+                                        min-height: 50%;
+                                        max-height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .BoutonSauve{
+                        display: flex;
+                        justify-content: center;
+                        margin: 80px 0px;
+                        button{
+                            background-color: $bleu;
+                            color: $blanc;
+                            padding: 15px 25px;
+                            border: 0px;
+                            border-radius: 10px;
+                            text-decoration: none;
+                        }
+                        button:hover{
+                            background-color: $vert;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,171 @@
+.Panier {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 130px;
+  .InfoPanier {
+    color: $bleu;
+    margin: 205px 0px 98px 67px;
+  }
+
+  .ContenuPanier {
+    background-color: $bleu;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 42px;
+
+    .TableauPanier {
+      height: max-content;
+      display: flex;
+      border: 4px solid $vert;
+      border-radius: 10px;
+
+      .Colonne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .TProduits{
+          background-color: $blanc;
+          border-bottom: 4px solid $vert;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          
+          p{
+            padding: 25px 50px;
+          }
+        }
+
+        .Produit{
+          background-color: $blanc;
+          padding: 32px 20px;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .ImgProduit{
+            background-color: $bleu;
+            border-radius: 10px;
+            margin-right: 23px;
+            width: 110.59px;
+            height: 182px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            img{
+              width: 100%;
+            }
+          }
+
+          .InfoProduit{
+
+            .TitreProduit{
+              margin-bottom: 40px;
+            }
+
+            input{
+              background-color: $blanc;
+              border-radius: 10px;
+              color: $bleu;
+              border: 0px;
+              width: 70px;
+              height: 50px;
+            }
+
+            .prixTOTO{
+              input{
+                background-color: transparent;
+                text-align: center;
+                border-radius: 10px;
+                color: $bleu;
+                border: 0px;
+                width: 100px;
+              }
+            }
+          }
+
+          .InfoProduit:hover {
+            
+            path{
+              stroke: $rouge;
+            }
+          }
+        }
+      }
+    }
+
+    .Resum {
+      width: 490px;
+      height: max-content;
+      border: 4px solid $vert;
+      border-radius: 10px;
+      .Titre {
+        background-color: $blanc;
+        color: $bleu;
+        display: flex;
+        justify-content: center;
+        border-bottom: 4px solid $vert;
+        border-radius: 4px 4px 0px 0px;
+        width: 100%;
+        padding: 20px 0px;
+      }
+      .ContenuResume {
+        background-color: $blanc;
+        padding: 60px;
+        border-radius: 0px 0px 4px 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .Resumee {
+          .Objet {
+            color: $bleu;
+            display: flex;
+            justify-content: space-between;
+            width: 376px;
+            border-bottom: 1px solid;
+            margin-bottom: 20px;
+          }
+        }
+        .Total {
+          color: $bleu;
+          margin: 50px 0px;
+          display: flex;
+          justify-content: space-between;
+          width: 376px;
+          border-bottom: 1px solid;
+
+          input{
+            background-color: transparent;
+            text-align: right;
+            border-radius: 10px;
+            color: $bleu;
+            border: 0px;
+            width: 200px;
+          }
+        }
+        .Commande {
+          margin-top: 50px;
+          button{
+            background-color: $bleu;
+            border: 0px;
+            border-radius: 10px;
+            padding: 15px 70px;
+            color: $blanc;
+            text-decoration: none;
+          }
+        }
+        .Commande:hover{
+          button{
+            background-color: $vert;
+          }
+        }
+      }
+    }
+  }
+}

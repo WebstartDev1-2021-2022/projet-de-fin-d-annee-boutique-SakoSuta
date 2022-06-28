@@ -1,0 +1,22 @@
+.GameOver{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0px;
+
+    a{
+        background-color: transparent;
+        text-decoration: none;
+        color: $bleu;
+        border: 2px solid $bleu;
+        margin-top: 50px;
+        padding: 15px 40px;
+    }
+
+    a:hover{
+        background-color: $vert;
+        color: $blanc;
+    }
+}

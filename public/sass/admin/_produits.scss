@@ -1,0 +1,59 @@
+.FormPro {
+  form {
+    display: flex;
+    justify-content: center;
+    .EditProduits {
+      width: fit-content;
+      .EditLigne {
+        display: flex;
+        width: 100%;
+        .Aligne {
+          width: 100%;
+          input {
+            background-color: $bleu;
+            color: $blanc;
+            border: 0px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+          }
+          p {
+            color: $rouge;
+          }
+
+          select {
+            background-color: $bleu;
+            color: $blanc;
+            padding: 10px;
+            border: 0px;
+            border-radius: 10px;
+          }
+
+          textarea {
+            background-color: $bleu;
+            color: $blanc;
+            border: 0px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            width: 95%;
+            height: 150px;
+          }
+        }
+      }
+      .sauvegarderAD {
+        display: flex;
+        justify-content: center;
+        margin: 60px;
+        button {
+          background-color: $bleu;
+          color: $blanc;
+          border: 0px;
+          border-radius: 10px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}

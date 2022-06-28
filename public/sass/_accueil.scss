@@ -1,0 +1,59 @@
+//--Categoried de l'accueil--//
+
+.CategorieAc {
+  margin: 76px 0px;
+  display: flex;
+  justify-content: center;
+
+  .autreCategorie {
+    margin-left: 19px;
+    display: flex;
+    flex-direction: column;
+
+    .motifs {
+      margin-bottom: 17px;
+    }
+  }
+}
+
+//--Nos Meilleurs Achats--//
+
+.MeilleursAchats {
+  background-color: $bleu;
+  margin-bottom: 75px;
+
+  .TitreMA {
+    p {
+      color: $blanc;
+      padding-top: 40px;
+      padding-left: 70px;
+      padding-bottom: 37px;
+    }
+  }
+
+  .ListeMeilAchat {
+    display: flex;
+    justify-content: center;
+
+    .ContenuMeilAchat {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 56px;
+      width: 100%;
+      max-width: 1380px;
+
+      .passe {
+        display: flex;
+        margin: 0px 55px;
+      }
+
+      .MeilleurArticle {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        max-width: 1080px;
+      }
+    }
+  }
+}

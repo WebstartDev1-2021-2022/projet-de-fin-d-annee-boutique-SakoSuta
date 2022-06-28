@@ -1,0 +1,75 @@
+.Category {
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .InfoCategory {
+    margin-top: 205px;
+    margin-bottom: 70px;
+
+    p{
+      color: $bleu;
+    }
+  }
+
+  .ContenuCategory {
+    background-color: $bleu;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .TousArticles {
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 65px;
+      padding: 95px 0px;
+      .Articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        a {
+          text-decoration: none;
+        }
+
+        .NomArticle {
+          color: $blanc;
+          margin: 25px 0px;
+        }
+        .NomArticle:hover {
+          color: $vert;
+        }
+
+        .btnAcheter {
+          background-color: $blanc;
+          color: $bleu;
+          border-radius: 97px;
+          padding: 10px 50px;
+        }
+        .btnAcheter:hover{
+          background-color: $vert;
+        }
+      }
+    }
+
+    .VoirPlus {
+      margin-bottom: 60px;
+      a {
+        background-color: $blanc;
+        color: $bleu;
+        padding: 12px 40px;
+        border-radius: 100px;
+        text-decoration: none;
+      }
+    }
+
+    .VoirPlus:hover{
+      a{
+      background-color: $vert;
+      }
+    }
+  }
+}

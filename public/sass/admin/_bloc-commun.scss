@@ -1,0 +1,69 @@
+.GestionAdmin {
+  .TitreAd {
+    margin-top: 103px;
+    margin-left: 67px;
+    margin-bottom: 98px;
+    color: $bleu;
+  }
+  .TousAdmin {
+    height: fit-content;
+    padding: 80px 40px;
+    background-color: $bleu;
+    display: flex;
+    justify-content: center;
+    .Admin {
+      height: fit-content;
+      .CategorieAdmin {
+        display: flex;
+        width: 100%;
+
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 20%;
+          min-width: 290px;
+          text-align: center;
+          text-decoration: none;
+          color: $bleu;
+          background-color: $blanc;
+          border: 1px solid $bleu;
+          padding: 45px 20px;
+        }
+      }
+      .ContenuAdmin {
+        background-color: $blanc;
+        border: 1px solid $bleu;
+        padding: 40px;
+        padding-bottom: 0px;
+        min-width: 974px;
+      }
+
+      .Deco{
+        display: flex;
+        a{
+          width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: $rouge;
+        background-color: $blanc;
+        border: 1px solid $bleu;
+        padding: 45px 55px;
+        }
+      }
+    }
+  }
+}
+
+.Ajouter{
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px;
+  a{
+    background-color: $bleu;
+    text-decoration: none;
+    border-radius: 10px;
+    color: $blanc;
+    padding: 15px 70px;
+  }
+}

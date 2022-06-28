@@ -1,0 +1,49 @@
+.FormSous {
+  form {
+    display: flex;
+    justify-content: center;
+    .EditSousCategories {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+      .EditLigne {
+        .Aligne {
+          input {
+            background-color: $bleu;
+            color: $blanc;
+            border: 0px;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+          }
+          p {
+            color: $rouge;
+          }
+
+          select {
+            background-color: $bleu;
+            color: $blanc;
+            padding: 10px;
+            border: 0px;
+            border-radius: 10px;
+          }
+        }
+      }
+      .sauvegarderAD {
+        display: flex;
+        justify-content: center;
+        margin: 60px;
+        button {
+          background-color: $bleu;
+          color: $blanc;
+          border: 0px;
+          border-radius: 10px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
