@@ -22,7 +22,7 @@
                 <div class="passe"><img src="../public/img/Icon/Black/Suivant.svg" alt="Suivant"></div>
             </div>
             <div class="VoirPlusApp">
-                <a href="../public/index.php?p=categories.souscategory&id=1" class="policeCHAKRA font20">Voir plus</a>
+                <a href="../public/index.php?p=categories.souscategory&id=5" class="policeCHAKRA font20">Voir plus</a>
             </div>
         </div>
     </section>

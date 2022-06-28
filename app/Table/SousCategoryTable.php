@@ -18,9 +18,10 @@ class SousCategoryTable extends Table{
 
     public function findWithProduit($id){
         return $this->query("
-            SELECT sous_categories.id, sous_categories.titre
-            FROM sous_categories
-            WHERE sous_categories.id = ?", [$id], true);
+        SELECT sous_categories.titre, sous_categories.id
+        FROM sous_categories
+        LEFT JOIN produits ON sous_categories_id = sous_categories.id
+        WHERE produits.id = ?", [$id], true);
     }
 
 }
