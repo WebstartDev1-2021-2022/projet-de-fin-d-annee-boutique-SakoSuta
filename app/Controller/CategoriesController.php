@@ -16,12 +16,6 @@ class CategoriesController extends AppController
         $this->loadModel('Produit');
     }
 
-    public function index()
-    {
-        $categories = $this->Category->all();
-        $this->render('categories.index', compact('categories'));
-    }
-
     public function souscategory()
     {
         $categories = $this->Category->all();
@@ -30,7 +24,7 @@ class CategoriesController extends AppController
             $this->notFound();
         }
         $produits = $this->Produit->lastBySousCategory($_GET['id']);
-        $this->render('categories.souscategory', compact('categories', 'souscategories', 'produits'));
+        $this->render('Categories.souscategory', compact('categories', 'souscategories', 'produits'));
     }
 
     public function PlayStation()
@@ -38,7 +32,7 @@ class CategoriesController extends AppController
         $categories = $this->Category->all();
         $produits4 = $this->Produit->lastBySousCategorylim(1);
         $produits5 = $this->Produit->lastBySousCategorylim(2);
-        $this->render('categories.PlayStation', compact('categories', 'produits4','produits5'));
+        $this->render('Categories.PlayStation', compact('categories', 'produits4','produits5'));
     }
 
     public function Xbox()
@@ -46,15 +40,14 @@ class CategoriesController extends AppController
         $categories = $this->Category->all();
         $produits4 = $this->Produit->lastBySousCategorylim(3);
         $produits5 = $this->Produit->lastBySousCategorylim(4);
-        $this->render('categories.Xbox', compact('categories', 'produits4','produits5'));
+        $this->render('Categories.Xbox', compact('categories', 'produits4','produits5'));
     }
 
     public function Nintendo()
     {
         $categories = $this->Category->all();
-        $produits4 = $this->Produit->lastBySousCategorylim(3);
-        $produits5 = $this->Produit->lastBySousCategorylim(4);
-        $this->render('categories.Nintendo', compact('categories', 'produits4','produits5'));
+        $produits4 = $this->Produit->lastBySousCategorylim(5);
+        $this->render('Categories.Nintendo', compact('categories', 'produits4'));
     }
 
 }

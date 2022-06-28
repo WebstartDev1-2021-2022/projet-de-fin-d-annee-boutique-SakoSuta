@@ -1,6 +1,6 @@
 <div class="AdminTable">
     <div class="Title">
-        <p class="CHAKRAMedium font32">Administrer les Catégories</p>
+        <p class="CHAKRAMedium font32">Administrer les Commandes</p>
     </div>
     
     <table>

@@ -248,6 +248,10 @@ nav.scrolled {
   background-color: #112B3D;
 }
 
+input {
+  outline: none;
+}
+
 .CategorieAc {
   margin: 76px 0px;
   display: flex;
@@ -361,6 +365,7 @@ nav.scrolled {
   margin-bottom: 8px;
   width: 100%;
   border: 0px;
+  outline: none;
   color: #112B3D;
   background-color: transparent;
 }

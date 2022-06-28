@@ -41,7 +41,7 @@
                                             <p class="CHAKRARegular font24">Téléphone :</p>
                                         </div>
                                         <div class="InputInfo">
-                                            <img src="../public/img/Icon/White/phone.svg" alt="Phone">
+                                            <img src="../public/img/Icon/White/Phone.svg" alt="Phone">
                                             <?= $form->input('tel', 'Téléphone', ['type' => 'tel'],  isset($errors["telError"]) ? $errors["telError"] : ""); ?>
                                         </div>
                                     </div>
@@ -50,7 +50,7 @@
                                             <p class="CHAKRARegular font24">Email :</p>
                                         </div>
                                         <div class="InputInfo">
-                                            <img src="../public/img/Icon/White/mail.svg" alt="Mail">
+                                            <img src="../public/img/Icon/White/Mail.svg" alt="Mail">
                                             <?= $form->input('email', 'Email', ['type' => 'email'],  isset($errors["emailError"]) ? $errors["emailError"] : ""); ?>
                                         </div>
                                     </div>

@@ -20,20 +20,20 @@
               <?= $form->input('firstname', 'Prénom', ['type' => 'text'], isset($errors["firstnameError"]) ? $errors["firstnameError"] : ""); ?>
             </div>
             <div class="InfoInput">
-              <?= $form->input('lastname', 'Nom',['type' => 'text'], isset($errors["lastnameError"]) ? $errors["lastnameError"] : ""); ?>
+              <?= $form->input('lastname', 'Nom', ['type' => 'text'], isset($errors["lastnameError"]) ? $errors["lastnameError"] : ""); ?>
             </div>
           </div>
           <div class="AutreInfo">
             <div class="InfoInput">
-              <img src="../public/img/Icon/Black/mail.svg" alt="Mail">
+              <img src="../public/img/Icon/Black/Mail.svg" alt="Mail">
               <?= $form->input('email', 'Email', ['type' => 'email'],  isset($errors["emailError"]) ? $errors["emailError"] : ""); ?>
             </div>
             <div class="InfoInput">
-              <img src="../public/img/Icon/Black/lock.svg" alt="Lock">
+              <img src="../public/img/Icon/Black/Lock.svg" alt="Lock">
               <?= $form->input('password', 'Mot de passe', ['type' => 'password'],  isset($errors["passwordError"]) ? $errors["passwordError"] : ""); ?>
             </div>
             <div class="InfoInput">
-              <img src="../public/img/Icon/Black/lock.svg" alt="Lock">
+              <img src="../public/img/Icon/Black/Lock.svg" alt="Lock">
               <?= $form->input('passwordVerif', 'Confirmez Mot de passe', ['type' => 'password'],  isset($errors["passwordVerifError"]) ? $errors["passwordVerifError"] : ""); ?>
             </div>
           </div>
@@ -47,11 +47,11 @@
       <div class="FormSignIn">
         <form method="post" action="index.php?p=users.login">
           <div class="InfoInput">
-            <img src="../public/img/Icon/White/mail.svg" alt="Mail">
+            <img src="../public/img/Icon/White/Mail.svg" alt="Mail">
             <?= $form->input('email', 'Adresse Email', ['type' => 'email']); ?>
           </div>
           <div class="InfoInput">
-            <img src="../public/img/Icon/White/lock.svg" alt="Lock">
+            <img src="../public/img/Icon/White/Lock.svg" alt="Lock">
             <?= $form->input('password', 'Mot de passe', ['type' => 'password']); ?>
           </div>
           <button class="Connected font20 policeCHAKRA">Se Connecter</button>

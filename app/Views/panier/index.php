@@ -44,7 +44,7 @@
                 <?php foreach ($panier as $idProduit => $champs) : ?>
                   <div class="Produit">
                     <div class="InfoProduit">
-                      <input type="number" id="produit-<?= $idProduit ?>-nbr" name="produit-<?= $idProduit ?>-nbr" class="policeCHAKRA font24 form-control produit-nbr" value="<?= $champs['nbr'] ?>" data-produit="<?= $idProduit ?>" data-prix="<?= $champs['prix'] ?>">
+                      <input type="number" id="produit-<?= $idProduit ?>-nbr" name="produit-<?= $idProduit ?>-nbr" class="policeCHAKRA font24 form-control produit-nbr" min="1" max="20" value="<?= $champs['nbr'] ?>" data-produit="<?= $idProduit ?>" data-prix="<?= $champs['prix'] ?>">
                     </div>
                   </div>
                 <?php endforeach; ?>
@@ -100,8 +100,8 @@
                 </div>
                 <div class="Total">
                   <p class="CHAKRASemiBold font24">Total du panier</p>
-                  <input type="hidden" id="commande-total" name="commande-total" value="<?= $prixTotalCommande ?>">
-                  <input type="text" id="commande-total-disabled" name="commande-total-disabled" value="<?= $prixTotalCommande ?> €" disabled="disabled" class="CHAKRASemiBold font24">
+                  <input type="hidden" id="commande-total" name="commande-total" value="<?= $prixTotalCommande + 4.99?>">
+                  <input type="text" id="commande-total-disabled" name="commande-total-disabled" step=".01" value="<?= $prixTotalCommande + 4.99?> €" disabled="disabled" class="CHAKRASemiBold font24">
                 </div>
                 <div class="Commande"><button class="CHAKRARegular font20">Commander</button></div>
               </div>
@@ -181,7 +181,8 @@
       prixUniteDisabled.setAttribute('value', resulatPrixtotal + "€")
       prixUnite.setAttribute('value', resulatPrixtotal)
 
-      prixTotalCommande = prixTotalCommande + resulatPrixtotal + 4,99;
+
+      prixTotalCommande = prixTotalCommande + resulatPrixtotal;
 
       prixCommandeDisabled.setAttribute('value', prixTotalCommande + "€")
       prixCommande.setAttribute('value', prixTotalCommande)

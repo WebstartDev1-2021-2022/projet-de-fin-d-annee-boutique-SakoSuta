@@ -55,12 +55,12 @@ class SousCategoriesController extends AppController{
                 'categories_id' => $_POST['categories_id'],
             ]);
             if ($result) {
-                header('Location: index.php?p=admin.souscategories.index');
+                header('Location: index.php?p=admin.SousCategories.index');
             }
         }
     }
 
-    public function Modif()
+    public function modif()
     {
         if($_SESSION['user']->role != 'ROLE_ADMIN'){
             $this->forbidden();
@@ -96,7 +96,7 @@ class SousCategoriesController extends AppController{
                 'categories_id' => $_POST['categories_id'],
             ]);
             if ($result) {
-                header('Location: index.php?p=admin.souscategories.index');
+                header('Location: index.php?p=admin.SousCategories.index');
             }
         }
     }

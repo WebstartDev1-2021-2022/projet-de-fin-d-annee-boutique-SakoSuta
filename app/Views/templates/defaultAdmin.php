@@ -35,7 +35,7 @@
                         <div class="CategorieAdmin">
                             <a href="../public/index.php?p=admin.users.index" class="CHAKRARegular font32 over">Les Utilisateurs</a>
                             <a href="../public/index.php?p=admin.categories.index" class="CHAKRARegular font32 over">Les Catégories</a>
-                            <a href="../public/index.php?p=admin.souscategories.index" class="CHAKRARegular font32 over">Les Sous-catégories</a>
+                            <a href="../public/index.php?p=admin.SousCategories.index" class="CHAKRARegular font32 over">Les Sous-catégories</a>
                             <a href="../public/index.php?p=admin.produits.index" class="CHAKRARegular font32 over">Les Produits</a>
                             <a href="../public/index.php?p=admin.commandes.index" class="CHAKRARegular font32 over">Les Commandes</a>
                         </div>

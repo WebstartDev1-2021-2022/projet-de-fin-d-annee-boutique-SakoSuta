@@ -1,6 +1,6 @@
-<div class="Ajouter"><a href="index.php?p=admin.souscategories.index" class="CHAKRASemiBold font24">Retour</a></div>
+<div class="Ajouter"><a href="index.php?p=admin.SousCategories.index" class="CHAKRASemiBold font24">Retour</a></div>
 <div class="FormSous">
-    <form method="post" action="index.php?p=admin.souscategories.ajouter">
+    <form method="post" action="index.php?p=admin.SousCategories.ajouter">
         <div class="EditSousCategories">
             <div class="EditLigne">
                 <?= $form->input('titre', 'Nom de la sous-catégories', ['type' => 'text'], isset($errors["titreError"]) ? $errors["titreError"] : ""); ?>

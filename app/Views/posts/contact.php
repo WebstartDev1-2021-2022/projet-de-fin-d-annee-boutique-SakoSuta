@@ -3,12 +3,12 @@
         <div class="NumAndMail">
             <div class="ContenuNumMail">
                 <div class="NumMailInfo">
-                    <img src="../public/img/Icon/Green/phone.svg" alt="Phone">
+                    <img src="../public/img/Icon/Green/Phone.svg" alt="Phone">
                     <p class="CHAKRAMedium font24">Numéro de Téléphone</p>
                     <p class="policeCHAKRA font24">+33 2 22 22 22 22</p>
                 </div>
                 <div class="NumMailInfo">
-                    <img src="../public/img/Icon/Green/mail.svg" alt="Mail">
+                    <img src="../public/img/Icon/Green/Mail.svg" alt="Mail">
                     <p class="CHAKRAMedium font24">Adresse Email</p>
                     <p class="policeCHAKRA font24">CeciEstUn@Email.com</p>
                 </div>
